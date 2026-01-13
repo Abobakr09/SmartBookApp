@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "كتابك الذكي",
+    "slug": "SmartBookApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./logo.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./logo.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abobakr.smartbook",
+      "infoPlist": {
+        "NSCameraUsageDescription": "نحتاج الكاميرا لمسح صفحات الكتاب.",
+        "NSMicrophoneUsageDescription": "نحتاج الميكروفون للتحدث مع المعلم الذكي."
+      }
+    },
+    "android": {
+      "package": "com.abobakr.smartbook",
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "MODIFY_AUDIO_SETTINGS"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./logo.jpg",
+        "backgroundColor": "#ffffff"
+      }
+    }
+  }
+}
